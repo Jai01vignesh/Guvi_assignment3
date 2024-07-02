@@ -5,7 +5,7 @@ import json
 import time
 
 st.session_state.is_trending = True
-URL = "#"#since it is a public api , removed it
+URL = "https://3fphf6jrfg.execute-api.ap-south-1.amazonaws.com/DEV/Trucks"#since it is a public api , removed it
 
 brake_status_lst =["Good","Bad","Average"]
 transmission_status_Lst =["Operational","Failure"]

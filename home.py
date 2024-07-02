@@ -19,7 +19,6 @@ show_pages(
     [
         Page("home.py", "Home", "🏠"),
         Page("pages/ecommerce.py", "Ecommerce clicks", "🧺"),
-        Page("pages/truck.py", "Truck Tracker", "🚚"),
         Page("pages/analysis.py", "Analysis", "📊"),
     ]
 )

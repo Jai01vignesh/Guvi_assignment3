@@ -81,7 +81,7 @@ def create_con(Accesskey,srvc_name):
         service_name=srvc_name,
         region_name='ap-south-1',
         aws_access_key_id = Accesskey, 
-        aws_secret_access_key = "#"
+        aws_secret_access_key = "2o1og3qlzbpWt3DkqrTnAIZt21VC1B7kgZvZJVMz"
         )
         return cl
 # Initialize the Kinesis client

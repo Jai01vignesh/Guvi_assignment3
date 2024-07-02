@@ -7,7 +7,7 @@ from sqlalchemy import create_engine,text,inspect
 
 
 st.session_state.is_trending = False
-engine = create_engine("postgresql://postgres:g$XbFPpaKn3KNX4Fvq@realtimetruckdata.cvg4iicuqk12.ap-south-1.rds.amazonaws.com:5432/postgres") #Postgresql connection - dbname://userid:password@hostname:portnumber/databasename
+engine = create_engine("postgresql://postgres:V$QGmNWmGEx5Kzti@realtimetruckdata.cvg4iicuqk12.ap-south-1.rds.amazonaws.com:5432/postgres") #Postgresql connection - dbname://userid:password@hostname:portnumber/databasename
 
 Truck_data_columns = st.sidebar.selectbox("Select the Data_column",
                                        pd.read_sql("SELECT column_name FROM information_schema.columns WHERE table_name = 'truck_data'"
@@ -40,7 +40,7 @@ with placeholder:
 
 
 
-engine1 = create_engine("postgresql://postgres:#@clickstream.cvg4iicuqk12.ap-south-1.rds.amazonaws.com:5432/postgres") #Postgresql connection - dbname://userid:password@hostname:portnumber/databasename
+engine1 = create_engine("postgresql://postgres:V$QGmNWmGEx5Kzti@clickstream.cvg4iicuqk12.ap-south-1.rds.amazonaws.com:5432/postgres") #Postgresql connection - dbname://userid:password@hostname:portnumber/databasename
 
 
 placeholder =st.empty()
